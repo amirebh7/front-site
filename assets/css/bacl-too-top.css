@@ -1,0 +1,63 @@
+.back-to-top{
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+.radius50{
+    border-radius: 50% !important;
+}
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background: #19ce67;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover, .btn-primary:focus {
+    -webkit-box-shadow: unset !important;
+            box-shadow: unset !important;
+    background: #121521 !important;
+    color: #ffffff !important;
+  }
+/* .btn-lg {
+@include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-border-radius-lg);
+} */
+
+/* .l{
+    min-width: 30px;
+} */
+
+
+.scroll-button {
+    /* display: none; */
+    opacity: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+/* افزودن انتقال به دکمه */
+.scroll-button {
+    /* بقیه قوانین CSS همان‌طور که بود */
+    transition: opacity .5s ease-in-out !important;
+}
+

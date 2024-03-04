@@ -1,0 +1,64 @@
+.topic-section-wrapper{
+    background-image: url('../img/Background06.png');
+    height: 900px;
+    background-repeat: none;
+    background-position: center;
+}
+.topic-section-wrapper .card-header{
+    overflow: hidden;
+}
+
+.topic-wrapper .card-header img{
+    transition: 0.5s ease;
+    /* border: 2px solid #9a4949; */
+}
+.topic-wrapper:hover img{
+    
+    transform: scale(1.5) rotate(10deg);
+
+}
+.topic-wrapper .card{
+    box-shadow:1px 5px 15px 2px rgba(68, 105, 242, 0.3)!important;
+
+}
+.card-body{
+    margin: 30px 11px;
+}
+.topic-wrapper .card-body a{
+    font-size: 16px;
+    padding: 5px;
+
+}
+.topic-wrapper .card-body .post-data{
+    top: -56px;
+    right: 15px;
+    width: 45px;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+}
+.topic-wrapper .card-body .post-data div:first-child{
+    background-color: orange;
+}
+.topic-wrapper .card-body .post-data div:last-child{
+    background-color: #efefef;
+    color: #6a6969;
+}
+.topic-wrapper .card-body p{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 30px;
+    color: rgb(12, 12, 12);
+}
+.topic-wrapper .card-footer ul{
+    border-top: 1px solid #eeeeee;
+}
+.topic-wrapper .card-footer ul li{
+    display: inline-block;
+}
+.topic-wrapper .card-footer ul li i,.topic-wrapper .card-footer ul li i span{
+    font-size: 16px;
+    color: #afa8a8;
+    margin: 0px 7px;
+}
+
